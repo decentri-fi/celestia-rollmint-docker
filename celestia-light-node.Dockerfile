@@ -7,7 +7,7 @@ RUN . /install-go.sh
 ADD install-celestia.sh /install-celestia.sh
 RUN . /install-celestia.sh
 RUN celestia light init --p2p.network mocha
-CMD ["celestia",  "light",  "start",  "--core.ip", "https://limani.celestia-devops.dev", "--gateway", "--gateway.addr", "0.0.0.0", "--p2p.network","mocha"]
+CMD ["celestia",  "light",  "start",  "--core.ip", "https://rpc-mocha.pops.one", "--gateway", "--gateway.addr", "0.0.0.0", "--p2p.network","mocha"]
 #CMD ["celestia", "light", "start", "help"]
 
 
