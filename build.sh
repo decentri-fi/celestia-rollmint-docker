@@ -1,0 +1,1 @@
+docker build -t celestia-light -f celestia-light-node.Dockerfile .
