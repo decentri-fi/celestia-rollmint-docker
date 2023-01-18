@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 export PATH=$PATH:/usr/local/go/bin
-curl https://get.ignite.com/cli@v0.22.2! | bash
+curl https://get.ignite.com/cli! | bash
 ignite scaffold chain gm
 cd gm
 go mod edit -replace github.com/cosmos/cosmos-sdk=github.com/celestiaorg/cosmos-sdk-rollmint@v0.46.7-rollmint-v0.5.0-no-fraud-proofs

@@ -1,1 +1,0 @@
-docker run --rm -p 26659:26659 celestia-light
