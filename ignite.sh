@@ -7,4 +7,5 @@ go mod edit -replace github.com/cosmos/cosmos-sdk=github.com/celestiaorg/cosmos-
 go mod edit --replace github.com/tendermint/tendermint=github.com/celestiaorg/tendermint@v0.34.22-0.20221013213714-8be9b54c8c21
 go mod tidy
 go mod download
+ignite chain build
 
