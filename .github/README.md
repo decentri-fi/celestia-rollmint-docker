@@ -45,4 +45,10 @@ The Rollmint rollup is a rollup for the Celestia blockchain.
   - 
   This is not necessary, as the flag is already set to FlagDisableIAVLFastNode in the config.toml file.
 - the celestia logs are filled with warnings. According to the devs, this is normal.
-- 
+
+
+Next steps:
+
+The rollup complains about the following
+- "rpc error: code = NotFound desc = account celestia13ux04z9s7ex44kcsvnwja6644ns340xurgj5tp not found" attempt=13 module=BlockManager
+Further investigation would be needed to create the correct account.
