@@ -2,6 +2,11 @@
 
 This repository contains the code for the Celestia lightnode and Rollmint rollup.
 
+In order to successfully launch, you'll have to:
+- build
+- launch celestia node
+- launch rollup
+
 ## Building
 
 ### Prerequisites
