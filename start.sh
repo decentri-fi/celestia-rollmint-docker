@@ -1,0 +1,2 @@
+cd $HOME/celestia-node && echo "budget repeat road traffic cross dawn predict transfer abuse science gym ship planet picnic cook acoustic horn trial depart catch much raise disease assume" | ./cel-key add neworder --recover --keyring-backend test --node.type light --p2p.network mocha
+celestia light start --core.ip "https://rpc-mocha.pops.one" --gateway --gateway.addr 0.0.0.0 --p2p.network mocha --keyring.accname neworder

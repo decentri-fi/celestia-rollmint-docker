@@ -12,7 +12,7 @@ if [[ "$1" == "build" ]]; then
     sh build.sh
 elif [[ "$1" == "celestia" ]]; then
     echo "Running celestia-light-node"
-    docker run --network neworder --name celestia-light -d -p 26658:26658 -p 26659:26659 celestia-light
+    docker run --network neworder -v test-key:/root/key-test/ --name celestia-light -d -p 26658:26658 -p 26659:26659 celestia-light
 elif [[ "$1" == "rollup" ]]; then
     echo "Running rollup-node"
     docker run -d --network neworder --name rollmint -p 26657:26657 rollmint
